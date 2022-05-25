@@ -1,0 +1,22 @@
+
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-family: Khmer Moul;
+}
+hr{
+    size: 2px;
+}
+img{
+    width: 120px;
+    padding: 5px;
+}
+p{
+    font-family: Quire Sans Light;
+    margin-top: 2px;
+    width: 500px;
+    text-align: justify;
+}
