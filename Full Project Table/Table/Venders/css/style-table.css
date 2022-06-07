@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Chenla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+body{
+    background-color: rgb(65, 64, 64);
+}
+.titlemovie{
+    color: white;
+    font-family: Moul;
+    text-align: center;
+    font-size: larger;
+}
+u{
+    color:white;
+}
+table{
+    margin: auto;
+}
+table, th,td{
+    border: 2px solid;
+    border-collapse:collapse;
+    border-color: rgb(241, 150, 4);
+    font-family: Chenla;
+    color: azure;
+    text-align: center;
+}
+a{
+    color: rgb(191, 193, 185);
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+table, td:hover{
+    color:yellow;
+    cursor: pointer;
+}
+th{
+    width: 150px;
+}
+img{
+    width: 120px;
+    margin: 10px 10px 2px;
+    border-radius: 50% !important;
+    transition: 0.50s;
+}
+img:hover{
+    width: 135px;
+    margin: 10px 10px 2px;
+    border-radius: 50% !important;
+    transition: 0.50s;
+}
+.id{
+    width: 70px !important;
+}

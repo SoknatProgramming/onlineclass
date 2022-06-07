@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    background-color:gray;
+}
+.header{
+    text-align: center;
+    color:rgb(240, 240, 240);
+    font-family: 'Righteous';
+}
+.show{
+    text-align: center;
+    color: burlywood;
+    margin-left: -250px;
+    margin-top: -10px;
+}
+.img-logo{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    display: block;
+
+}
+ul li{
+    overflow: hidden;
+    margin: auto;
+    font-size: xx-small;
+    text-align: center;
+    margin-top: 30px;
+}
+ul li img{
+    width: 100px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.date{
+    
+    color: yellow;
+    font-size: 7px;
+}
