@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+}
+
+.top-label {
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px;
+    color: blueviolet;
+}
+
+.form-register {
+    text-align: center;
+    width: 400px;
+    height: 420px;
+    background-color: bisque;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btn-username,
+.btn-password {
+    width: 370px;
+    height: 30px;
+    border: 2px solid black;
+    margin-left: 0px;
+    border-radius: 50px;
+}
+
+.label {
+    text-align: left;
+    margin-left: 13px;
+}
+
+.btn-submit {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+}
