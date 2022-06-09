@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="venders/css/style.css">
+    <link rel="stylesheet" href="venders/fontawesome-free-6.1.1-web/css/fontawesome.min.css">
+    <script src="venders/fontawesome-free-6.1.1-web/js/fontawesome.min.js"></script>
+    <script src="venders/js/app.js"></script>
     <title>Document</title>
 </head>
 
@@ -14,14 +17,20 @@
     <div class="form-register">
         <form action="#" name="Register">
             <p class="top-label">Form Register</p>
+            <div class="img-profile">
+                <img src="venders/image/img.jpg" alt="profile"><br>
+                <label for="profile">Sann Soknat</label>
+            </div>
+            <i class="fa-brands fa-chrome"></i>
             <p class="label">Yourname:</p>
-            <input type="text" class="btn-username" placeholder="Please insert yourname"><br>
+            <input type="text" class="btn-username" name="username" placeholder="Please insert yourname" required><br>
             <p class="label">YourPassword:</p>
-            <input class="btn-password" type="password" placeholder="Please insert Password"> <br>
+            <input class="btn-password" type="password" placeholder="Please insert Password" name="password" required> <br>
             <p class="label">YourPhoneNumber:</p>
-            <input class="btn-password" type="text" placeholder="Please insert PhoneNumber"><br>
+            <input class="btn-password" type="text" placeholder="Optional"><br>
 
-            <button class="btn-submit">Submit</button>
+            <button class="btn-submit" type="submit" onclick="dataalert();">Submit</button>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
         </form>
 
     </div>
